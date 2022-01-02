@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Pxvel.github.io/rsschool-cv/cv

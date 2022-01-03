@@ -1,3 +1,72 @@
 .header {
-    position: relative;
+    width: 100vh ;
+    height: 350px ;
+    
+    border: 5px dotted rgb(3, 3, 0);
+    padding-left: 100px;
+    margin: auto
+}
+
+#name{
+    text-align: left;
+}
+
+#photo{
+    width: 25%;
+    position: sticky;
+    left: 100px;
+}
+
+.main {
+    padding-left: 100px;
+    width: 100vh ;
+    height: 510px ;
+    border: 5px dotted rgb(1, 1, 7);
+    margin: auto
+}
+
+.footer {
+    padding-left: 100px;
+    width: 100vh ;
+    height: 350px ;
+    border: 5px dotted rgb(1, 8, 6);
+    margin: auto
+}
+
+/* img {
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 0px;
+    align-items: left;
+    justify-content: left;
+} */
+
+#logo{
+    width: 20%;
+    position: absolute;
+    bottom: 0px;
+    top: 900px;
+    margin-left: 600px;
+}
+
+h1 {
+    font-size:xx-large;
+    font-weight: 600;
+}
+h2 {
+    font: size xx-large;
+}
+#ulid {
+    font-size: 20pt;
+}
+
+#code{
+    font-size: small;
+}
+#idul{
+    font-size: 20pt;
+}
+#GH{
+    font-size: 20pt
+    
 }

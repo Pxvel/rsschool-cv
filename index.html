@@ -8,40 +8,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1 id="name">Hello, I'm Pavel Furseev</h1>
-        <img id="photo" src="im.jpg" alt="photo">
-        <nav class="menu">
-            <a href="1.html">Top</a> | <a href="2.html">About me</a> |
-            <a href="3.html">Contacts</a>
-        </nav>
-    </div>
-    <div class="main">
-        <h2>About me:</h2>
-            <ul id="ulid">
-                <li>Education: Francisk Skorina Gomel State Univesity, phsical engineer </li>
-                <li>Skills:HTML,CSS,Git,JS (Basic)</li>
-                <li>Code Example:</li>
-                    <pre>
-                        <code id="code">
-                                h2 {
-                                  position: relative;
-                                  top: 10px;
-                                }
-                        </code>
-                        </pre>
-                <li>English skill: A1-A2</li>
+    <div class="content">
+        <div class="header">
+            <h1 id="name">Hello, I'm Pavel Furseev</h1>
+            <div class="container">
+                <img class="photo" src="im.jpg" alt="photo" width="960" height="640">
+            </div>
+            <ul class="menu">
+                <li><a href="#name">Top</a></li>
+                <li><a href="#About me">About me</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
             </ul>
-    </div>
-    <div class="footer">
-        <h3>Contacts:</h3>
-        <ul id="idul">
-            <li>Location: Belarus, Gomel</li>
-            <li>Phone: +375447411225</li>
-            <li>Email: pavel.furseev@mail.ru</li>
-        </ul>
-        <a id="GH" href="https://github.com/Pxvel">My GitHub</a>
-        <a href="https://rs.school/js/"><img id="logo" src="gg.jpeg" alt="logo"></a>
+        </div>
+        <div class="main">
+            <h2 id="About me">About me:</h2>
+                <ul>
+                    <li>I am a third-year student at the university. I study technical specialty, I am interested in programming.<br>
+                         From personal qualities I would like to note as easy learnability, work in a team and social skills.</li>
+                </ul>
+            <h2>Education:</h2>
+                <ul>
+                    <li>Francisk Skorina Gomel State Univesity, phsical engineer </li>
+                </ul>
+            <h2>Skills:</h2>
+                <ul>
+                    <li>HTML,CSS,Git (Basic)</li>
+                </ul>
+            <h2>Code Example:</h2>
+                <ul>
+                    <li><pre>
+                            <code id="code">
+                            h2 {
+                            position: relative;
+                            top: 10px;
+                            }
+                            </code>
+                            </pre></li>
+                </ul>
+            <h2>English skill:</h2>
+                <ul>
+                    <li>A1-A2</li>
+                </ul>
+            <h2>Completed Tasks:</h2>
+                <ul>
+                    <li><a id="GH" href="https://github.com/Pxvel/rsschool-cv">"CV#1. Markdown & Git"</a></li>
+                    <li><a id="GH" href="https://github.com/Pxvel/rsschool-cv">"CV#2. HTML, CSS & Git Basics"</a></li>
+                    <li><a id="GH" href="https://github.com/Pxvel/rsschool-cv">"CV#3. CV. Cross-Check"</a></li>
+                </ul>
+        </div>
+        <div class="footer">
+            <h2 id="Contacts">Contacts:</h2>
+            <ul id="idul">
+                <li>Location: Belarus, Gomel</li>
+                <li>Phone: +375447411225</li>
+                <li>Email: <a id="EM" href="mailto:pavel.furseev@mail.ru">pavel.furseev@mail.ru</a></li>
+            </ul>
+            <a id="GH" href="https://github.com/Pxvel">My GitHub</a>
+            <div class="gg">
+                <a href="https://rs.school/js/"><img id="logo" src="gg.jpeg" alt="logo"></a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
